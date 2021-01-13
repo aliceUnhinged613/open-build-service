@@ -26,7 +26,7 @@ gem 'haml-rails'
 # to avoid tilt downgrade
 gem 'tilt', '>= 1.4.1'
 # to use markdown in the comment system
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 # for nested attribute forms
 gem 'cocoon'
 # for activerecord lists. Used for AttribValues
