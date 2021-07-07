@@ -57,7 +57,7 @@ gem 'bunny'
 # for making changes to existing data
 gem 'data_migrate'
 # for URI encoding
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 # for XML builder
 gem 'builder'
 # to write the rails metrics directly into InfluxDB.
@@ -113,13 +113,13 @@ group :test do
   # for spec like reporting
   gem 'minitest-reporters'
   # for integration testing
-  gem 'capybara'
+  gem 'capybara', '>= 3.33.0'
   # for rspec like matchers
-  gem 'capybara_minitest_spec'
+  gem 'capybara_minitest_spec', '>= 1.0.7'
   # to freeze time
   gem 'timecop'
   # to fake backend replies
-  gem 'webmock', '>= 2.3.0'
+  gem 'webmock', '>= 3.8.3'
   # for mocking and stubbing
   gem 'mocha', '> 0.13.0', require: false
   # for testing common Rails functionality with simple one-liners
@@ -161,7 +161,7 @@ group :development, :test do
   # to generate random long strings
   gem 'faker'
   # to launch browser in test
-  gem 'launchy'
+  gem 'launchy', '>= 2.5.0'
   # for calling single testd
   gem 'single_test'
   # to find n+1 queries
