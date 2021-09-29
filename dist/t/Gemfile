@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'capybara'
+gem 'capybara', '>= 3.25.0'
 gem 'rspec-core'
 gem 'rspec-expectations'
 # as driver for capybara
-gem 'apparition'
+gem 'apparition', '>= 0.6.0'
