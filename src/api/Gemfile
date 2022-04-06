@@ -14,7 +14,7 @@ gem 'delayed_job_active_record', '>= 4.0.0'
 gem 'airbrake'
 gem 'airbrake-ruby'
 # as JSON library - the default json conflicts with activerecord (by means of vice-versa monkey patching)
-gem 'yajl-ruby', require: 'yajl/json_gem'
+gem 'yajl-ruby', '>= 1.4.2', require: 'yajl/json_gem'
 # to search the database
 gem 'thinking-sphinx', '> 3.1'
 # to paginate search results
